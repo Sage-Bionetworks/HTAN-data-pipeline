@@ -16,11 +16,11 @@ config_data = load_yaml(CONFIG_PATH)
 base_schema_path = os.path.join(DATA_PATH, '', config_data["model"]["biothings"]["location"])
 
 # schema name (used to name schema json-ld file as well)
-output_schema_name = "HTAN"
+output_schema_name = "HIV_v1.1"
 
 # schema extension definition csv files
 schema_extensions_csv = [
-                        os.path.join(DATA_PATH, '', 'csv/HTAN.csv')
+                        os.path.join(DATA_PATH, '', 'csv/HIV_v1.1.csv')
                         ]
 
 # instantiate schema explorer
